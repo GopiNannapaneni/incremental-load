@@ -1,0 +1,9 @@
+{
+	"name": "incrementaladfgkk",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "df61f69a-84ee-4bec-80e7-15bf79dac87e",
+		"tenantId": "02db4df2-57aa-47b7-b588-ac1169b71a48"
+	}
+}

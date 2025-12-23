@@ -1,0 +1,18 @@
+{
+	"name": "ls_azuresql_input",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_KeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlconnectionstring"
+			}
+		}
+	}
+}
